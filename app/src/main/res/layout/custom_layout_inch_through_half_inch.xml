@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="@dimen/marker_width"
+        android:layout_height="@dimen/sixteenth_marker_height"
+        android:background="@color/inchMarkers"
+        android:id="@+id/oneSixteenths"
+        />
+
+    <View
+        android:layout_width="@dimen/marker_width"
+        android:layout_height="@dimen/eigths_marker_height"
+        android:background="@color/inchMarkers"
+        android:id="@+id/oneEigths"
+        android:layout_toRightOf="@+id/oneSixteenths"
+        android:layout_toEndOf="@id/oneSixteenths"
+        android:layout_marginLeft="@dimen/marker_separation_width"
+        android:layout_marginStart="@dimen/marker_separation_width"/>
+
+    <View
+        android:layout_width="@dimen/marker_width"
+        android:layout_height="@dimen/sixteenth_marker_height"
+        android:background="@color/inchMarkers"
+        android:id="@+id/zeroThreeSixteenth"
+        android:layout_toRightOf="@+id/oneEigths"
+        android:layout_toEndOf="@id/oneEigths"
+        android:layout_marginLeft="@dimen/marker_separation_width"
+        android:layout_marginStart="@dimen/marker_separation_width"/>
+
+    <View
+        android:layout_width="@dimen/marker_width"
+        android:layout_height="@dimen/fourths_marker_height"
+        android:background="@color/inchMarkers"
+        android:id="@+id/oneFourth"
+        android:layout_toRightOf="@+id/zeroThreeSixteenth"
+        android:layout_toEndOf="@id/zeroThreeSixteenth"
+        android:layout_marginLeft="@dimen/marker_separation_width"
+        android:layout_marginStart="@dimen/marker_separation_width"/>
+
+    <View
+        android:layout_width="@dimen/marker_width"
+        android:layout_height="@dimen/sixteenth_marker_height"
+        android:background="@color/inchMarkers"
+        android:id="@+id/fveSixteenth"
+        android:layout_toRightOf="@+id/oneFourth"
+        android:layout_toEndOf="@id/oneFourth"
+        android:layout_marginLeft="@dimen/marker_separation_width"
+        android:layout_marginStart="@dimen/marker_separation_width"/>
+
+    <View
+        android:layout_width="@dimen/marker_width"
+        android:layout_height="@dimen/eigths_marker_height"
+        android:background="@color/inchMarkers"
+        android:id="@+id/threeEigths"
+        android:layout_toRightOf="@+id/fveSixteenth"
+        android:layout_toEndOf="@id/fveSixteenth"
+        android:layout_marginLeft="@dimen/marker_separation_width"
+        android:layout_marginStart="@dimen/marker_separation_width"/>
+
+    <View
+        android:layout_width="@dimen/marker_width"
+        android:layout_height="@dimen/sixteenth_marker_height"
+        android:background="@color/inchMarkers"
+        android:id="@+id/sevenSixteenth"
+        android:layout_toRightOf="@+id/threeEigths"
+        android:layout_toEndOf="@id/threeEigths"
+        android:layout_marginLeft="@dimen/marker_separation_width"
+        android:layout_marginStart="@dimen/marker_separation_width"/>
+
+
+</RelativeLayout>

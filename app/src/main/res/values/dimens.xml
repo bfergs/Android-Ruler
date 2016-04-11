@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="inch_marker_height">45dp</dimen>
+    <dimen name="sixteenth_marker_height">10dp</dimen>
+    <dimen name="eigths_marker_height">15dp</dimen>
+    <dimen name="fourths_marker_height">25dp</dimen>
+    <dimen name="half_marker_height">35dp</dimen>
+
+    <dimen name="marker_width">1dp</dimen>
+    <!-- 9dp to account for the width -->
+    <dimen name="marker_separation_width">9dp</dimen>
+
+</resources>

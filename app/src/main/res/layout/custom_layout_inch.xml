@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <include
+        layout="@layout/custom_layout_inch_through_half_inch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/inch_through_half"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+       />
+
+    <View
+        android:layout_width="@dimen/marker_width"
+        android:layout_height="@dimen/half_marker_height"
+        android:background="@color/inchMarkers"
+        android:id="@+id/halfInchMarker"
+        android:layout_toRightOf="@+id/inch_through_half"
+        android:layout_toEndOf="@+id/inch_through_half"
+        android:layout_marginLeft="@dimen/marker_separation_width"
+        android:layout_marginStart="@dimen/marker_separation_width"/>
+
+    <include
+        layout="@layout/custom_layout_inch_through_half_inch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/half_inch_to_end"
+        android:layout_toRightOf="@id/halfInchMarker"
+        android:layout_toEndOf="@id/halfInchMarker"
+        android:layout_marginLeft="@dimen/marker_separation_width"
+        android:layout_marginStart="@dimen/marker_separation_width"/>
+
+    <View
+        android:layout_width="@dimen/marker_width"
+        android:layout_height="@dimen/inch_marker_height"
+        android:background="@color/inchMarkers"
+        android:id="@+id/inchMarker"
+        android:layout_toRightOf="@id/half_inch_to_end"
+        android:layout_toEndOf="@id/half_inch_to_end"
+        android:layout_marginLeft="@dimen/marker_separation_width"
+        android:layout_marginStart="@dimen/marker_separation_width"
+
+        />
+
+</RelativeLayout>

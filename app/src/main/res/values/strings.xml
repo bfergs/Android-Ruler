@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Android Ruler</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name ="zero_inch_textview">0</string>
+    <string name="one_inch_textview">1</string>
+    <string name ="two_inch_textview">2</string>
+    <string name ="three_inch_textview">3</string>
+    <string name="four_inch_textview">4</string>
+
+    <string name="centimeter_abbreviation">Cm</string>
+    <string name="millimeter_abbreviation">Mm</string>
+
+    <string name ="centimeter_calculation">Cm%1$s %2$s</string>
+    <string name ="millimeter_calculation">Mm%1$s %2$s</string>
+</resources>
