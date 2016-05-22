@@ -1,6 +1,7 @@
 **Android Ruler** is an Android app that provides an accurate ruler on your phone so you can measure anything anywhere!
 
 **Features:** 
+* Touch Measurements
 * Inches to mm and cm conversion. 
 
 
